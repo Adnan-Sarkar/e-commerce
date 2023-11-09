@@ -1,77 +1,170 @@
 const Footer = () => {
   return (
     <>
-      <footer className="font-dm-sans bg-grayLight">
-        <div className="max-w-container">
-          <div className="flex">
+      <footer className="font-dm-sans bg-grayLight pt-[55px] pb-[52px]">
+        <div className="container">
+          <div className="flex lg:gap-x-[275px]">
             <div className="flex items-start gap-x-[143px]">
               <div>
-                <h4>MENU</h4>
+                <h4 className="text-primary text-[16px] font-bold leading-[23px] mb-[17px]">
+                  MENU
+                </h4>
                 <ul className="flex flex-col gap-y-[6px]">
                   <li>
-                    <a href="#">Home</a>
+                    <a
+                      className="text-secondaryLight text-sm leading-[23px]"
+                      href="#"
+                    >
+                      Home
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Shop</a>
+                    <a
+                      className="text-secondaryLight text-sm leading-[23px]"
+                      href="#"
+                    >
+                      Shop
+                    </a>
                   </li>
                   <li>
-                    <a href="#">About</a>
+                    <a
+                      className="text-secondaryLight text-sm leading-[23px]"
+                      href="#"
+                    >
+                      About
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Contact</a>
+                    <a
+                      className="text-secondaryLight text-sm leading-[23px]"
+                      href="#"
+                    >
+                      Contact
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Journal</a>
+                    <a
+                      className="text-secondaryLight text-sm leading-[23px]"
+                      href="#"
+                    >
+                      Journal
+                    </a>
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h4>SHOP</h4>
+                <h4 className="text-primary text-[16px] font-bold leading-[23px] mb-[17px]">
+                  SHOP
+                </h4>
                 <ul className="flex flex-col gap-y-[6px]">
                   <li>
-                    <a href="#">Category 1</a>
+                    <a
+                      className="text-secondaryLight text-sm leading-[23px]"
+                      href="#"
+                    >
+                      Category 1
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Category 2</a>
+                    <a
+                      className="text-secondaryLight text-sm leading-[23px]"
+                      href="#"
+                    >
+                      Category 2
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Category 3</a>
+                    <a
+                      className="text-secondaryLight text-sm leading-[23px]"
+                      href="#"
+                    >
+                      Category 3
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Category 4</a>
+                    <a
+                      className="text-secondaryLight text-sm leading-[23px]"
+                      href="#"
+                    >
+                      Category 4
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Category 5</a>
+                    <a
+                      className="text-secondaryLight text-sm leading-[23px]"
+                      href="#"
+                    >
+                      Category 5
+                    </a>
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h4>HELP</h4>
+                <h4 className="text-primary text-[16px] font-bold leading-[23px] mb-[17px]">
+                  HELP
+                </h4>
                 <ul className="flex flex-col gap-y-[6px]">
                   <li>
-                    <a href="#">Privacy Policy</a>
+                    <a
+                      className="text-secondaryLight text-sm leading-[23px]"
+                      href="#"
+                    >
+                      Privacy Policy
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Terms & Conditions</a>
+                    <a
+                      className="text-secondaryLight text-sm leading-[23px]"
+                      href="#"
+                    >
+                      Terms & Conditions
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Special E-shop</a>
+                    <a
+                      className="text-secondaryLight text-sm leading-[23px]"
+                      href="#"
+                    >
+                      Special E-shop
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Shipping</a>
+                    <a
+                      className="text-secondaryLight text-sm leading-[23px]"
+                      href="#"
+                    >
+                      Shipping
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Secure Payments</a>
+                    <a
+                      className="text-secondaryLight text-sm leading-[23px]"
+                      href="#"
+                    >
+                      Secure Payments
+                    </a>
                   </li>
                 </ul>
               </div>
 
               <div>
-                <a href="#">(052) 611-5711</a>
-                <a href="#">company@domain.com</a>
-                <p>575 Crescent Ave. Quakertown, PA 18951</p>
+                <a
+                  className="text-primary text-[16px] font-bold leading-[27px] block"
+                  href="#"
+                >
+                  (052) 611-5711
+                </a>
+                <a
+                  className="text-primary text-[16px] font-bold leading-[27px] block"
+                  href="#"
+                >
+                  company@domain.com
+                </a>
+                <p className="mt-[15px] text-sm leading-[23px] text-secondaryLight">
+                  575 Crescent Ave. Quakertown, PA 18951
+                </p>
               </div>
             </div>
 
@@ -84,7 +177,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between mt-[65px]">
             <div>
               <ul className="flex items-center gap-x-[26px]">
                 <li>
@@ -114,7 +207,9 @@ const Footer = () => {
             </div>
 
             <div>
-              <p>2020 Orebi Minimal eCommerce Figma Template by Adveits</p>
+              <p className="text-sm leading-[23px] text-secondaryLight">
+                2020 Orebi Minimal eCommerce Figma Template by Adveits
+              </p>
             </div>
           </div>
         </div>
