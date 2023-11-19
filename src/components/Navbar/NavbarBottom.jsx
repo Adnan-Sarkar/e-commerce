@@ -2,8 +2,8 @@ const NavbarBottom = () => {
   return (
     <div className="py-[25px] bg-grayLight">
       <div className="container">
-        <div className="flex items-center justify-between">
-          <div>
+        <div className="flex md:items-center md:justify-between flex-col md:flex-row gap-y-5 md:gap-y-0 items-center">
+          <div className="order-1">
             <a href="#" className="flex items-center gap-x-[11px]">
               <picture>
                 <img src="./category_icon.svg" alt="category" />
@@ -12,9 +12,9 @@ const NavbarBottom = () => {
             </a>
           </div>
 
-          <div className="relative">
+          <div className="relative order-3 md:order-2 w-full md:w-auto">
             <input
-              className="py-[16px] pl-[21px] pr-[45px] outline-none lg:w-[601px] placeholder:text-[#C4C4C4] placeholder:text-sm text-sm"
+              className="py-[16px] pl-[21px] pr-[45px] outline-none w-full lg:w-[601px] placeholder:text-[#C4C4C4] placeholder:text-sm text-sm"
               type="text"
               placeholder="Search Products"
             />
@@ -23,7 +23,7 @@ const NavbarBottom = () => {
             </picture>
           </div>
 
-          <div className="flex items-center gap-x-[41px]">
+          <div className="flex items-center gap-x-[41px] order-2 md:order-3">
             <div>
               <a href="#">
                 <picture>
