@@ -3,8 +3,8 @@ const Footer = () => {
     <>
       <footer className="font-dm-sans bg-grayLight pt-[55px] pb-[52px]">
         <div className="container">
-          <div className="flex lg:gap-x-[275px]">
-            <div className="flex items-start gap-x-[143px]">
+          <div className="flex flex-col-reverse gap-y-5 2xl:flex-row 2xl:gap-x-[275px] justify-center">
+            <div className="md:flex md:items-start  md:flex-row md:justify-between 2xl:gap-x-[143px] grid grid-cols-2 gap-10">
               <div>
                 <h4 className="text-primary text-[16px] font-bold leading-[23px] mb-[17px]">
                   MENU
