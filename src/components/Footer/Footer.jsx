@@ -4,7 +4,7 @@ const Footer = () => {
       <footer className="font-dm-sans bg-grayLight pt-[55px] pb-[52px]">
         <div className="container">
           <div className="flex flex-col-reverse gap-y-5 2xl:flex-row 2xl:gap-x-[275px] justify-center">
-            <div className="md:flex md:items-start  md:flex-row md:justify-between 2xl:gap-x-[143px] grid grid-cols-2 gap-10">
+            <div className="md:flex md:items-start  md:flex-row md:justify-between 2xl:gap-x-[143px] grid sm:grid-cols-2 grid-cols-1 gap-10 text-center sm:text-left">
               <div>
                 <h4 className="text-primary text-[16px] font-bold leading-[23px] mb-[17px]">
                   MENU
@@ -168,7 +168,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div>
+            <div className="self-center sm:self-start">
               <a href="#">
                 <picture>
                   <img src="./logo.png" alt="OREBI" />
@@ -177,7 +177,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex items-center justify-between mt-[65px]">
+          <div className="flex flex-col sm:flex-row items-center justify-between mt-[65px] gap-y-8 sm:gap-y-0">
             <div>
               <ul className="flex items-center gap-x-[26px]">
                 <li>
@@ -207,7 +207,7 @@ const Footer = () => {
             </div>
 
             <div>
-              <p className="text-sm leading-[23px] text-secondaryLight">
+              <p className="text-sm leading-[23px] text-secondaryLight text-center sm:text-left">
                 2020 Orebi Minimal eCommerce Figma Template by Adveits
               </p>
             </div>
